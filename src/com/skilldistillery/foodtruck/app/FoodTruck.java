@@ -2,11 +2,11 @@ package com.skilldistillery.foodtruck.app;
 
 public class FoodTruck {
 // input what variables the user will enter
-	public int id;
-	public String foodTruckName;
-	public String foodType;
-	public int rating;
-	public static int numOfTrucks = 0;
+	private int id;
+	private String foodTruckName;
+	private String foodType;
+	private int rating;
+	private static int numOfTrucks = 0;
 
 	public FoodTruck() {
 	}
